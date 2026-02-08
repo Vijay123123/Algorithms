@@ -38,7 +38,7 @@ class Seg {
         
         if(high <l || low>r) {
             return req;
-        }
+        }""
         if(low>=l && high<=r) {
             return seg[ind];
         }
